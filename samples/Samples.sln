@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B5777A52-0F21-42BF-8AFC-79F28A14A493}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bno055.Sample", "..\src\devices\Bno055\samples\Bno055.Sample.csproj", "{297D6D9F-34C3-4EF8-94C1-636113950C4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bno055", "..\src\devices\Bno055\Bno055.csproj", "{53624B70-CEB4-4C2A-90D5-88CDD392382F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ads1115", "..\src\devices\Ads1115\Ads1115.csproj", "{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ads1115.Samples", "..\src\devices\Ads1115\samples\Ads1115.Samples.csproj", "{25E3F857-2A08-4F61-97EE-BA008C97F111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Linux-Debug|Any CPU = Linux-Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Windows-Debug|Any CPU = Windows-Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Linux-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Linux-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Windows-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D6D9F-34C3-4EF8-94C1-636113950C4B}.Windows-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Linux-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Linux-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Windows-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F}.Windows-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Linux-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Linux-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Windows-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F}.Windows-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Linux-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Linux-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Windows-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E3F857-2A08-4F61-97EE-BA008C97F111}.Windows-Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53624B70-CEB4-4C2A-90D5-88CDD392382F} = {B5777A52-0F21-42BF-8AFC-79F28A14A493}
+		{FCDD0D98-9F18-4842-8DA2-BCE56196A36F} = {B5777A52-0F21-42BF-8AFC-79F28A14A493}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6187543-B313-4C1F-8549-9E022E80D70B}
+	EndGlobalSection
+EndGlobal

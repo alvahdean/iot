@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <!--Disabling default items so samples source won't get build by the main library-->
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <RootNamespace>Iot.Device</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\GpioHeaderModel.cs" />
+    <Compile Include="Models\PinMeta.cs" />
+    <Compile Include="Models\ButtonModel.cs" />
+    <Compile Include="Events\ButtonEvents.cs" />
+    <Compile Include="Enums\ButtonEvent.cs" />
+    <Compile Include="Models\IotBoardModel.cs" />
+    <Compile Include="Enums\PinCapabilities.cs" />
+    <Compile Include="Models\PinIndexModel.cs" />
+    <Compile Include="Enums\PinIndexScheme.cs" />
+    <Compile Include="Models\PinNameModel.cs" />
+    <Compile Include="Enums\PinNamingScheme.cs" />
+    <Compile Include="Models\RaspberryPiModel.cs" />
+    <Compile Include="Models\PiHeaderModel.cs" />
+    <None Include="README.md" />
+    <PackageReference Include="System.Device.Gpio" Version="0.1.0-prerelease*" />
+  </ItemGroup>
+
+</Project>
